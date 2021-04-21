@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+*{
+  font-family: sans-serif;
+}
+
+
+
+body {
+
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(14,161,78,1) 100%);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin #ingresar{
+  background-color: #12C760;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#homebtn{
+  background-color:  #12C760;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+#homebtn:hover{
+  background-color: #0f8b45 ;
+  
+}
+
+header{
+  height: 110%;
+  padding-left: 10px;
+}
